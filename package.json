@@ -1,0 +1,19 @@
+{
+  "name": "tsc-parsers",
+  "version": "0.0.1",
+  "description": "Validate JSON typescript objects at run-time",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "@types/mocha": "^5.2.6",
+    "@types/chai": "^4.1.7",
+    "mocha": "^6.0.2",
+    "chai": "^4.2.0",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.3333"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --require ts-node/register test/*.spec.ts"
+  }
+}
