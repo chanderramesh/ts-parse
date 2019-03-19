@@ -1,6 +1,6 @@
 {
   "name": "tsc-parsers",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Validate JSON typescript objects at run-time",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

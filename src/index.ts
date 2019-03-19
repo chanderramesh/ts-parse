@@ -1,8 +1,12 @@
 /* Arrays */
 export { BaseArrayValidator } from './baseArrayValidator'
+export { BaseNonEmptyArrayValidator } from './baseNonEmptyArrayValidator'
 export { FloatArrayValidator } from './floatArrayValidator'
+export { FloatNonEmptyArrayValidator } from './floatNonEmptyArrayValidator'
 export { IntArrayValidator } from './intArrayValidator'
+export { IntNonEmptyArrayValidator } from './intNonEmptyArrayValidator'
 export { StringArrayValidator } from './stringArrayValidator'
+export { StringNonEmptyArrayValidator } from './stringNonEmptyArrayValidator'
 
 /* Booleans */
 export { BooleanValidator } from './booleanValidator'
