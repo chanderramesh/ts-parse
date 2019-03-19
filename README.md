@@ -200,3 +200,7 @@ Probably the coolest of the lot - it takes in an object where the keys are field
 Want to make a custom validator? `BaseValidator` is the base class from which all others are extended. Feel free to implement your own!
 
 Want to have runtime type safety but can't migrate the entire codebase all at once? Stub in `NoOpValidator`, which allows everything, and provides you the freedom to slowly adopt strict runtime enforcement.
+
+## Contribute
+
+Want to help? Feel free to file a PR at [ts-parse](https://github.com/hardlyHacking/ts-parse)!
